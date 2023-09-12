@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: calc(100vw / 1920 * 10);
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: calc(100vw / 1440 * 10);
+  }
+}
+
+button {
+  font-size: inherit;
+}
+
+input {
+  font-size: inherit;
+}
